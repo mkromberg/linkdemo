@@ -1,0 +1,5 @@
+{
+  Settings: {
+      LX: "linkdemo.Start 1 ⊣ ⎕←⎕SE.Link.Import 'linkdemo' ⎕SE.Link.LaunchDir"
+  }
+}

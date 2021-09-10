@@ -1,0 +1,3 @@
+ mean←Mean vals;sum
+ sum←+⌿,vals
+ mean←sum÷1⌈⍴,vals

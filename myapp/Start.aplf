@@ -1,0 +1,11 @@
+ Start run
+⍝ Establish development environment for the linkdemo application.
+
+ ⎕IO←⎕ML←1
+ ⎕SE.Link.Import '#.stats' 'c:\tmp\stats' ⍝ Load but do NOT Link the stats library
+ ST←#.stats
+
+:If run
+   Main
+   ⎕OFF
+:EndIf

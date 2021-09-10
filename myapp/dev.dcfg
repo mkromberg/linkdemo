@@ -1,0 +1,5 @@
+{
+  Settings: {
+      LX: "linkdemo.Start 0 ⊣ ⎕←⎕SE.Link.Create 'linkdemo' ⎕SE.Link.LaunchDir"
+  }
+}
