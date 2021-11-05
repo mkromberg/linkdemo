@@ -1,5 +1,5 @@
 {
   Settings: {
-      LX: "linkdemo.Start 0 ⊣ ⎕←⎕SE.Link.Create 'linkdemo' ⎕SE.Link.LaunchDir"
+      LX: "myapp.Start 0 ⊣ ⎕←⎕SE.Link.Create 'myapp' ⎕SE.Link.LaunchDir"
   }
 }

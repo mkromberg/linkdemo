@@ -1,6 +1,7 @@
  Main;data
 ⍝ Compute Mean and StdDev until user inputs an empty array
 
+ ST←#.stats
  :Repeat
      ⎕←'Enter some numbers:'
      :If 0≠⍴data←⎕

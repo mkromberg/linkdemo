@@ -1,10 +1,11 @@
- Start run
-⍝ Establish development environment for the linkdemo application.
+ Start run;statsdir
+⍝ Load the stats library required by the linkdemo application
+⍝   Start the application if run is 1
 
  ⎕IO←⎕ML←1
- ⎕SE.Link.Import '#.stats' 'c:\tmp\stats' ⍝ Load but do NOT Link the stats library
- ST←#.stats
-
+ statsdir←(⊃1 ⎕NPARTS ⎕SE.Link.LaunchDir),'stats'
+ ⎕SE.Link.Import '#.stats' statsdir ⍝ Load but do NOT Link the stats library
+ 
 :If run
    Main
    ⎕OFF
